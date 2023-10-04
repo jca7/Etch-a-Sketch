@@ -1,0 +1,32 @@
+body {
+  height: 100vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+#container {
+  height: 500px; 
+  width: 500px; 
+  background-color: white;
+  display: flex; 
+  flex-direction: column;
+
+}
+
+.rows {
+
+  display: flex; 
+  height: 100%;
+
+
+}
+
+.square {
+  border: solid 1px black; 
+  width: 100%; 
+
+}
+
