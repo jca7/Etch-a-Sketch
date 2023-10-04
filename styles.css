@@ -3,6 +3,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  gap: 20px; 
+  font-family: 'Barlow', sans-serif;
+
 
 }
 
@@ -27,6 +31,13 @@ body {
 .square {
   border: solid 1px black; 
   width: 100%; 
+}
 
+button { 
+  padding: 8px 20px;
+  border-radius:8px;
+  font-weight: 800;
+  width: 100px;
+  font-family: 'Barlow', sans-serif;
 }
 
